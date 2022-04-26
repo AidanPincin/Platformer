@@ -123,7 +123,8 @@ class Player{
         }
     }
 }
-let lvl = JSON.parse(data.getItem('lvl'))
+let lvl = 1
+//JSON.parse(data.getItem('lvl'))
 if(lvl == null){
     lvl = 1
     data.setItem('lvl',1)
