@@ -146,7 +146,7 @@ classes.b = class extends Obj{
 classes.t = class extends Obj{
     constructor(x,y,width=20,height=20,color='#000000'){
         super(x,y,width,height,color)
-        this.speed = -10
+        this.speed = -15
     }
 }
 function breakDown(string){
